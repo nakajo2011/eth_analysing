@@ -1,0 +1,26 @@
+{
+  "name": "eth_analysing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yukishige Nakajo <nakajo@chaintope.com> (http://y-nakajo.hatenablog.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "ts-node": "^10.0.0",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@ethereumjs/common": "^2.3.0",
+    "@ethereumjs/tx": "^3.2.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "axios": "^0.21.1",
+    "rlp": "^2.2.6",
+    "web3": "^1.3.6"
+  }
+}
